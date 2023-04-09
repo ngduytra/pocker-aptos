@@ -1,0 +1,9 @@
+[package]
+name = 'pocker-prog'
+version = '1.0.0'
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'main'
+subdir = 'aptos-move/framework/aptos-framework'
+[addresses]
+pocker_addr='27360e439d8db9b595e3adc0b0dd1bd79150a6b9b7c83af7a68bf02732830afe'
